@@ -8,9 +8,14 @@
     url("wds011402.woff") format("woff");
 }
 
-h1,
-h2 {
+h1 {
   font-family: "Walt Disney Script v4.1 Regular";
   font-weight: 300;
   color: seagreen;
+}
+
+h2 {
+  font-family: "Walt Disney Script v4.1 Regular";
+  font-weight: 300;
+  color: black;
 }
