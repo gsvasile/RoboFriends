@@ -2,6 +2,10 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
+    if (typeof robots !== 'object') {
+        throw new Error('NOOOOOO, SOMETHING WENT WRONG!');
+    }
+
     return (
         <React.StrictMode>
             {
